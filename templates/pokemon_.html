@@ -1,0 +1,13 @@
+{%extends 'pokemon.html'%}
+
+{% block content %}
+	<h1>{{ name }}</h1>
+	<img src="{{ sprite }}" alt="{{ name }} sprite">
+	<h2>hp_base_stat: {{ hp_base_stat }}</h2>
+    <h1>"sprite_url": {{sprite_url}}</h1>
+	<h2>defense_base_stat: {{ defense_base_stat }}</h2>
+    <h2>attack_base_stat: {{ attack_base_stat }}</h2>
+	<h2>Ability: {{ ability }}</h2>
+    <h2>base_experience: {{ base_experience }}</h2>
+
+{%endpoint%}
